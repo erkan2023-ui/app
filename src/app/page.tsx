@@ -70,7 +70,7 @@ export default function Home() {
         <button
           onClick={handleAnalyze}
           disabled={loading || !url.trim()}
-          className="rounded-lg bg-violet-600 px-6 py-3 text-sm font-medium text-white hover:bg-violet-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="rounded-lg bg-emerald-600 px-6 py-3 text-sm font-medium text-white hover:bg-emerald-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           {loading ? "Analyzing..." : "Analyze"}
         </button>
